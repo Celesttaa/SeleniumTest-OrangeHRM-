@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-02T15:29:09 IST" name="Default suite" finished-at="2024-07-02T15:29:32 IST" duration-ms="22704">
+    <groups>
+    </groups>
+    <test started-at="2024-07-02T15:29:09 IST" name="Default test" finished-at="2024-07-02T15:29:32 IST" duration-ms="22704">
+      <class name="TestScripts.loginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScripts.loginTest@117159c0]" started-at="2024-07-02T15:29:09 IST" name="setup" finished-at="2024-07-02T15:29:19 IST" duration-ms="9202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithInvalidCredentials()[pri:1, instance:TestScripts.loginTest@117159c0]" started-at="2024-07-02T15:29:19 IST" name="loginWithInvalidCredentials" finished-at="2024-07-02T15:29:24 IST" duration-ms="5223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method signature="loginWithValidCredentials()[pri:2, instance:TestScripts.loginTest@117159c0]" started-at="2024-07-02T15:29:24 IST" name="loginWithValidCredentials" finished-at="2024-07-02T15:29:25 IST" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestScripts.loginTest@117159c0]" started-at="2024-07-02T15:29:25 IST" name="tearDown" finished-at="2024-07-02T15:29:32 IST" duration-ms="6676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScripts.loginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
